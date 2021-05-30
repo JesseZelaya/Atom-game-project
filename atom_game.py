@@ -235,24 +235,6 @@ class BlackBoxGame:
         return self._atom_count
 
 
-# print(game.get_score())
-#
-# print(game.atoms_left())
-
-
-#
-#
-n = BlackBoxGame([(1,1),(1,7)])
-n.print_board()
-print(n.shoot_ray(9,2))
-print(n.atoms_left())
-
-# if n.guess_atom(1,0):
-#     print("atom was present")
-# else:
-#     print("atom not present")
-
-
 
 
 
